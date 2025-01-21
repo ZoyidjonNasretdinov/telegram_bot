@@ -1,21 +1,66 @@
 {
-  "name": "telegram",
+  "name": "telegram_bot",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "anymatch": "^3.1.3",
+    "array-buffer-byte-length": "^1.0.2",
+    "array.prototype.findindex": "^2.2.4",
+    "arraybuffer.prototype.slice": "^1.0.4",
+    "asn1": "^0.2.6",
+    "assert-plus": "^1.0.0",
+    "asynckit": "^0.4.0",
+    "available-typed-arrays": "^1.0.7",
+    "aws-sign2": "^0.7.0",
+    "aws4": "^1.13.2",
+    "balanced-match": "^1.0.2",
+    "bcrypt-pbkdf": "^1.0.2",
+    "binary-extensions": "^2.3.0",
+    "bl": "^1.2.3",
+    "brace-expansion": "^1.1.11",
+    "braces": "^3.0.3",
+    "call-bind": "^1.0.8",
+    "call-bind-apply-helpers": "^1.0.1",
+    "call-bound": "^1.0.3",
+    "caseless": "^0.12.0",
+    "chokidar": "^3.6.0",
+    "combined-stream": "^1.0.8",
+    "concat-map": "^0.0.1",
+    "core-util-is": "^1.0.3",
+    "dashdash": "^1.14.1",
+    "data-view-buffer": "^1.0.2",
+    "data-view-byte-length": "^1.0.2",
+    "data-view-byte-offset": "^1.0.1",
+    "debug": "^4.4.0",
+    "define-data-property": "^1.1.4",
+    "define-properties": "^1.2.1",
+    "delayed-stream": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "dunder-proto": "^1.0.1",
+    "ecc-jsbn": "^0.1.2",
+    "end-of-stream": "^1.4.4",
+    "node-telegram-bot-api": "^0.66.0"
   },
-  "keywords": [],
-  "author": "Zoyidjon Nasretdinov",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "node-telegram-bot-api": "^0.66.0"
-  }
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZoyidjonNasretdinov/telegram_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZoyidjonNasretdinov/telegram_bot/issues"
+  },
+  "homepage": "https://github.com/ZoyidjonNasretdinov/telegram_bot#readme"
 }

@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "Zoyidjon",
+      "phone": "998950248204",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "Dilshod",
+      "phone": "998776665544",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "name": "Ilyos",
+      "phone": "998997778899",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "name": "Laptop",
+      "price": 1200
+    },
+    {
+      "name": "Smartphone",
+      "price": 800
+    },
+    {
+      "name": "Olma",
+      "price": 1200
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user": "Zoyidjon",
+      "product": "Laptop",
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "user": "Dilshod",
+      "product": "Smartphone",
+      "quantity": 1
+    },
+    {
+      "id": 1737458285768,
+      "user": "Zoyidjon",
+      "product": "Olma",
+      "quantity": 5000
+    },
+    {
+      "id": 1737458498658,
+      "user": "Zoyidjon",
+      "product": "Olma",
+      "quantity": 100
+    },
+    {
+      "id": 1737458605594,
+      "user": "Zoyidjon",
+      "product": "Olma",
+      "quantity": 100
+    }
+  ]
+}
